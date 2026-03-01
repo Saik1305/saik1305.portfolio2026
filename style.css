@@ -270,6 +270,10 @@ footer {
 
 /* ================== SHARED PAGE WRAPPER ================== */
 
+.left-content {
+    display: contents;
+}
+
 .about-wrapper,
 .imprint-wrapper,
 .project-wrapper {
@@ -349,7 +353,15 @@ footer {
     .about-wrapper,
     .project-wrapper {
         grid-template-columns: 1fr 1fr;
+        column-gap: clamp(20px, 4vw, 60px);
+        row-gap: 60px;
+    }
+
+    .left-content {
+        display: flex;
+        flex-direction: column;
         gap: 60px;
+        align-self: start;
     }
 
     /* Spaltenstruktur */
@@ -370,7 +382,7 @@ footer {
 
     .col-4 {
         grid-column: 2;
-        grid-row: 1 / span 2;
+        grid-row: 1;
         position: sticky;
         top: 200px;
         align-self: start;
