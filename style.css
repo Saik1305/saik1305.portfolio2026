@@ -416,6 +416,10 @@ footer {
         padding-left: 100px;
     }
 
+    .col-1 img {
+        margin-bottom: 0;
+    }
+
     .col-3 {
         display: none;
     }
