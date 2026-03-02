@@ -371,7 +371,7 @@ footer {
     .left-content {
         display: flex;
         flex-direction: column;
-        gap: 60px;
+        gap: 30px;
         align-self: start;
     }
 
