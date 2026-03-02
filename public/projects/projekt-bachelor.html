@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vom Tasten und den Tasten</title>
+    <link rel="icon" type="image/x-icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../../style.css">
+</head>
+
+<body>
+<!--NAVIGATION-->
+<nav>
+    <div class="nav-left">
+        <div class="name"><a href="../../index.html">Alessio Cicciarella</a></div>
+        <div class="job">Graphic Designer</div>
+    </div>
+
+    <div class="nav-right">
+        <div class="lang-switch">
+            <span class="lang" data-lang="de">DE</span> /
+            <span class="lang" data-lang="en">EN</span>
+        </div>
+        <a href="../about.html" class="nav-link about-text">About</a>
+    </div>
+
+    <div class="hamburger" onclick="toggleMenu()">…</div>
+
+    <div class="mobile-menu" id="mobileMenu">
+        <a href="../about.html" class="nav-link about-text">About</a>
+        <div>
+            <span class="lang" data-lang="de">DE</span> /
+            <span class="lang" data-lang="en">EN</span>
+        </div>
+    </div>
+
+</nav>
+
+<!--SIDE-INFO-->
+<div class="side-info">
+    <div class="email"><a href="mailto:alessio.cicciarella@gmx.de">alessio.cicciarella@gmx.de
+    </a></div>
+    <a href="public/imprint.html" class="imprint-link imprint-text">Imprint</a>
+</div>
+
+<!--PROJECT-WRAPPER-->
+<div class="project-wrapper">
+
+    <!-- COLUMN 1 & 2 – LEFT CONTENT -->
+    <div class="left-content">
+
+    <!-- COLUMN 1 – 3D MODEL -->
+    <div class="col col-1">
+        <model-viewer 
+            src="../models/model.glb"
+            camera-controls 
+            auto-rotate 
+            orientation="0deg 0deg 180deg"
+            style="width:100%; height:500px;">
+        </model-viewer>
+    </div>
+
+    <!-- COLUMN 2 – TEXT -->
+    <div class="col col-2">
+        <!-- ENGLISH -->
+        <div class="lang-en">
+        <h1>Vom Tasten und den Tasten</h1>
+        <h2>Bachelor Project</h2>
+        <h2>Wintersemester 25/26</h2>
+        <p>
+           This project translates the central question of my thesis into the format of a book. At its core lies an investigation into how the intimate quality of the sense of touch is transformed in the post-digital age through the ubiquity of touchscreens. The tactile is reflected not only in materiality, but also in the design decisions themselves and their inherent limitations. The slender format creates a sense of intimacy and invites viewers into a haptic engagement.
+        </p>
+        </div>
+
+        <!-- DEUTSCH -->
+        <div class="lang-de">
+        <h1>Vom Tasten und den Tasten</h1>
+        <h2>Bachelorprojekt</h2>
+        <h2>Wintersemester 25/26</h2>
+           <p>Dieses Projekt übersetzt die in meiner Thesis behandelte Fragestellung in ein Buchformat. Im Zentrum steht die Untersuchung, inwieweit sich die intime Qualität des Tastsinns im postdigitalen Alltag durch die Allgegenwärtigkeit von Touchscreens verändert. Das Taktile spiegelt sich dabei nicht nur in der Materialität, sondern auch in den gestalterischen Entscheidungen und deren Grenzen wider. Das schmale Format erzeugt Nähe und lädt die Betrachter*innen zur haptischen Auseinandersetzung ein.
+        </p>
+        </div>
+    </div>
+
+    </div><!-- end .left-content -->
+
+    <!-- COLUMN 3 – EMPTY -->
+    <div class="col col-3"></div>
+
+    <!-- COLUMN 4 – IMAGES -->
+    <div class="col col-4">
+    <picture>
+    <source srcset="images/bachelor/bachelorprojekt_exhibition-01.webp" type="image/webp">
+    <img
+        src="images/bachelor/bachelorprojekt_exhibition-01.jpg"
+        alt="bachelorprojekt exhibition 01"
+        loading="eager"
+    >
+    </picture>
+    <picture>
+    <source srcset="images/bachelor/bachelorprojekt_exhibition-02.webp" type="image/webp">
+    <img
+        src="images/bachelor/bachelorprojekt_exhibition-02.jpg"
+        alt="bachelorprojekt exhibition 02"
+        loading="eager"
+    >
+    </picture>
+    <picture>
+    <source srcset="images/bachelor/bachelorprojekt_exhibition-03.webp" type="image/webp">
+    <img
+        src="images/bachelor/bachelorprojekt_exhibition-03.jpg"
+        alt="bachelorprojekt exhibition 03"
+        loading="eager"
+    >
+    </picture>
+    </div>
+
+</div>
+
+<footer>
+    <div class="footer-left">
+        <img src="../icon.png" alt="Icon">
+    </div>
+    <div class="footer-right">&#169; 2026</div>
+</footer>
+
+<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+<script src="../../script.js"></script>
+
+</body>
+</html>
