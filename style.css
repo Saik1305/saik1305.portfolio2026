@@ -14,10 +14,6 @@ body {
     hyphens: auto
 }
 
-.body h1 {
-    hyphens: none;
-}
-
 a {
     text-decoration: none;
     color: black;
@@ -243,10 +239,6 @@ nav {
     .w-1 { grid-column: span 1; }
 }
 
-    .side-info-landscape {
-        display: none;
-    }
-
 /* ================== FOOTER ================== */
 
 footer {
@@ -294,6 +286,12 @@ footer {
     align-items: start;
 }
 
+@media (min-width: 1400px) {
+    .project-wrapper {
+        grid-template-columns: 2fr 2fr 0.3fr 1.5fr;
+    }
+}
+
 /* Headings (shared Garamond style) */
 
 .about-wrapper h1,
@@ -322,13 +320,9 @@ footer {
     margin-top: 50px;
 }
 
-.col img,
-.project-wrapper .col-4 img {
+.col img {
     width: 100%;
     display: block;
-}
-
-.col img {
     margin-bottom: 50px;
     height: auto;
     object-fit: cover;
@@ -365,7 +359,7 @@ footer {
     .left-content {
         display: flex;
         flex-direction: column;
-        gap: 60px;
+        gap: 30px;
         align-self: start;
     }
 
@@ -374,6 +368,10 @@ footer {
     .col-1 {
         grid-column: 1;
         grid-row: 1;
+    }
+
+    .col-1 img {
+        margin-bottom: 0;
     }
 
     .col-2 {
@@ -388,9 +386,6 @@ footer {
     .col-4 {
         grid-column: 2;
         grid-row: 1;
-        position: sticky;
-        top: 200px;
-        align-self: start;
     }
 
 }
@@ -404,6 +399,11 @@ footer {
     .project-wrapper {
         grid-template-columns: 1fr;
         padding-left: 100px;
+        row-gap: 0;
+    }
+
+    .col-1 img {
+        margin-bottom: 0;
     }
 
     .col-3 {
