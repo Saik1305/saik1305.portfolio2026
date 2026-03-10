@@ -1,0 +1,37 @@
+english:
+This project translates the central question of my thesis into the format of a book. At its core lies an investigation into how the intimate quality of the sense of touch is transformed in the post-digital age through the ubiquity of touchscreens. The tactile is reflected not only in materiality, but also in the design decisions themselves and their inherent limitations. The slender format creates a sense of intimacy and invites viewers into a haptic engagement.
+
+Main sources:
+
+Case, Amber, Calm Technology. Principles and Patterns for Non-Intrusive Design,Sebastopol: O’Reilly Media 2015.
+
+Flusser, Vilém, Ins Universum der technischen Bilder, Göttingen: European Photography 1999.
+
+Gramelsberger, Gabriele, Philosophie des Digitalen zur Einführung,Hamburg: Junius 2023.
+
+Harrasser, Karin (Hg.), Auf Tuchfühlung. Eine Wissensgeschichte des Tastsinns, Frankfurt a.M.: Campus 2017.
+
+Krämer, Sybille, „Das Medium als Spur und als Apparat“, in dies. (Hg.), Medien,Computer, Realität. Wirklichkeitsvorstellungen und Neue Medien, Frankfurt a.M.: Suhrkamp1998.
+
+Merleau-Ponty, Maurice, Phänomenologie der Wahrnehmung. Aus dem Französischenvon Rudolf Boehm, Berlin: Walter de Gruyter 1976.
+
+Weigelt, Shirin, „Tasten. Taktilität als Paradigma des Digitalen“, in: Mühlhoff, Rainer / Breljak, Anja / Slaby, Jan (Hg.), Affekt Macht Netz. Auf dem Weg zu einer Sozialtheorie der Gesellschaft, Bielefeld: transcript 2019.
+
+deutsch:
+Dieses Projekt übersetzt die in meiner Thesis behandelte Fragestellung in ein Buchformat. Im Zentrum steht die Untersuchung, inwieweit sich die intime Qualität des Tastsinns im postdigitalen Alltag durch die Allgegenwärtigkeit von Touchscreens verändert. Das Taktile spiegelt sich dabei nicht nur in der Materialität, sondern auch in den gestalterischen Entscheidungen und deren Grenzen wider. Das schmale Format erzeugt Nähe und lädt die Betrachter*innen zur haptischen Auseinandersetzung ein.
+
+Primärliteratur:
+
+Case, Amber, Calm Technology. Principles and Patterns for Non-Intrusive Design,Sebastopol: O’Reilly Media 2015.
+
+Flusser, Vilém, Ins Universum der technischen Bilder, Göttingen: European Photography 1999.
+
+Gramelsberger, Gabriele, Philosophie des Digitalen zur Einführung,Hamburg: Junius 2023.
+
+Harrasser, Karin (Hg.), Auf Tuchfühlung. Eine Wissensgeschichte des Tastsinns, Frankfurt a.M.: Campus 2017.
+
+Krämer, Sybille, „Das Medium als Spur und als Apparat“, in dies. (Hg.), Medien,Computer, Realität. Wirklichkeitsvorstellungen und Neue Medien, Frankfurt a.M.: Suhrkamp1998.
+
+Merleau-Ponty, Maurice, Phänomenologie der Wahrnehmung. Aus dem Französischenvon Rudolf Boehm, Berlin: Walter de Gruyter 1976.
+
+Weigelt, Shirin, „Tasten. Taktilität als Paradigma des Digitalen“, in: Mühlhoff, Rainer / Breljak, Anja / Slaby, Jan (Hg.), Affekt Macht Netz. Auf dem Weg zu einer Sozialtheorie der Gesellschaft, Bielefeld: transcript 2019.
