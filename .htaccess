@@ -4,9 +4,14 @@ RewriteEngine On
 RewriteCond %{THE_REQUEST} \s/+index\.html[\s?] [NC]
 RewriteRule ^ / [R=301,L]
 
-# Redirect any other .html request to the clean URL with trailing slash
-# e.g. /about.html -> /about/  |  /projects/name.html -> /projects/name/
-RewriteCond %{THE_REQUEST} \s/+(.*?)\.html[\s?] [NC]
+# Redirect a project .html to its clean URL WITHOUT trailing slash
+# e.g. /projects/kinoklub.html -> /projects/kinoklub
+RewriteCond %{THE_REQUEST} \s/+projects/([^/]+)\.html[\s?] [NC]
+RewriteRule ^ /projects/%1 [R=301,L]
+
+# Redirect any top-level .html to its clean URL WITH trailing slash
+# e.g. /about.html -> /about/  |  /imprint.html -> /imprint/
+RewriteCond %{THE_REQUEST} \s/+([^/]+)\.html[\s?] [NC]
 RewriteRule ^ /%1/ [R=301,L]
 
 # Internally rewrite a top-level clean URL to its .html file
@@ -15,8 +20,8 @@ RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^([^/]+)/$ $1.html [L]
 
-# Internally rewrite a two-level clean URL to its .html file
-# e.g. /projects/my-project/ -> projects/my-project.html
+# Internally rewrite a project clean URL (no trailing slash) to its .html file
+# e.g. /projects/kinoklub -> projects/kinoklub.html
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^([^/]+)/([^/]+)/$ $1/$2.html [L]
+RewriteRule ^projects/([^/]+)$ projects/$1.html [L]
