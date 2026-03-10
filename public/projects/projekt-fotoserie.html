@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fotoserie Triptychon</title>
+    <link rel="icon" type="image/x-icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../../style.css">
+</head>
+
+<body>
+<!--NAVIGATION-->
+<nav>
+    <div class="nav-left">
+        <div class="name"><a href="../../index.html">Alessio Cicciarella</a></div>
+        <div class="job">Graphic Designer</div>
+    </div>
+
+    <div class="nav-right">
+        <div class="lang-switch">
+            <span class="lang" data-lang="de">DE</span> /
+            <span class="lang" data-lang="en">EN</span>
+        </div>
+        <a href="../about.html" class="nav-link about-text">About</a>
+    </div>
+
+    <div class="hamburger" onclick="toggleMenu()">…</div>
+
+    <div class="mobile-menu" id="mobileMenu">
+        <a href="../about.html" class="nav-link about-text">About</a>
+        <div>
+            <span class="lang" data-lang="de">DE</span> /
+            <span class="lang" data-lang="en">EN</span>
+        </div>
+    </div>
+
+</nav>
+
+<!--SIDE-INFO-->
+<div class="side-info">
+    <div class="email"><a href="mailto:alessio.cicciarella@gmx.de">alessio.cicciarella@gmx.de
+    </a></div>
+    <a href="../imprint.html" class="imprint-link imprint-text">Imprint</a>
+</div>
+
+<!--PROJECT-WRAPPER-->
+<div class="project-wrapper">
+
+    <!-- COLUMN 1 & 2 – LEFT CONTENT -->
+    <div class="left-content">
+
+    <!-- COLUMN 1 – PICTURE -->
+    <div class="col col-1">
+        <picture>
+        <source srcset="../images/thumbnails/tryptichon_thumbnail.webp" type="image/webp">
+        <img
+            src="../images/thumbnails/tryptichon_thumbnail.gif"
+            alt="tryptichon thumbnail"
+        >
+        </picture>
+    </div>
+
+    <!-- COLUMN 2 – TEXT -->
+    <div class="col col-2">
+        <!-- ENGLISH -->
+        <div class="lang-en">
+        <h1>Fotoserie Triptychon</h1>
+        <h2>Personal project</h2>
+        <h2>November 2022</h2>
+            <p>
+                With this project, I wanted to explore the limits of self-portraits. The question I was dealing with at the same time was the visualization of recipients in a (post-)digital world. Especially as a movie watcher, it was interesting for me to play with what it might look like if someone were to watch me watching a movie. I was also thinking of Hitchcock’s »Rear Window«.
+            </p>
+            <p>
+                In the course of this occupation in digital space, I designed my photo series as a triptych in order to include the additive color system through a three-part structure, i.e., red, green, and blue. I worked with focus shifts and depth of field, with mirrors and the »screen« as such, which also appears here.
+            </p>
+        </div>
+
+        <!-- DEUTSCH -->
+        <div class="lang-de">
+        <h1>Fotoserie Triptychon</h1>
+        <h2>Persönliches Projekt</h2>
+        <h2>November 2022</h2>
+            <p>
+                Mit diesem Projekt wollte ich die Grenzen des Selbstporträts testen. Gleichzeitig beschäftigte mich die Frage nach der Visualisierung von Rezipient*innen in einer (post-)digitalen Welt. Besonders spannend fand ich zudem die Vorstellung, wie es aussehen könnte, wenn mich jemand beim Filmeschauen beobachten würde. Ich dachte hierbei auch an Hitchcocks »Rear Window«.
+            </p>
+            <p>
+                Im Zuge dieser Auseinandersetzung mit dem digitalen Raum konzipierte ich meine Fotoserie als Triptychon, um durch eine dreiteilige Struktur zugleich das additive Farbsystem – also Rot, Grün und Blau – einzubeziehen. Ich arbeitete mit Fokusverlagerungen und Tiefenschärfe sowie mit Spiegeln und dem »Screen« als solchem, der auch hier in Erscheinung tritt.
+            </p>
+        </div>
+    </div>
+
+    </div><!-- end .left-content -->
+
+    <!-- COLUMN 3 – EMPTY -->
+    <div class="col col-3"></div>
+
+    <!-- COLUMN 4 – IMAGES -->
+    <div class="col col-4">
+
+        <picture>
+            <source srcset="images/fotoserie/fotoserie_rot-01.webp" type="image/webp">
+                <img
+                    src="images/3d-form/fotoserie_rot-01.jpg"
+                    alt="fotoserie rot 01"
+                >
+        </picture>
+
+       <picture>
+            <source srcset="images/fotoserie/fotoserie_gruen-02.webp" type="image/webp">
+                <img
+                    src="images/3d-form/fotoserie_gruen-02.jpg"
+                    alt="fotoserie gruen 02"
+                >
+        </picture>
+
+       <picture>
+            <source srcset="images/fotoserie/fotoserie_blau-03.webp" type="image/webp">
+                <img
+                    src="images/3d-form/fotoserie_blau-03.jpg"
+                    alt="fotoserie blau 03"
+                >
+        </picture>
+    </div>
+
+</div>
+
+<footer>
+    <div class="footer-left">
+        <a href="../../index.html"><img src="../icon.png" alt="Icon"></a>
+    </div>
+    <div class="footer-right">&#169; 2026</div>
+</footer>
+
+<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+<script src="../../script.js"></script>
+
+</body>
+</html>
